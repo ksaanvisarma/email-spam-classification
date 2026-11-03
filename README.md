@@ -23,6 +23,12 @@ Models are evaluated using:
 - Stratified 5-fold cross-validation
 - Confusion matrices
 
+## Conclusion
+
+The models were compared using accuracy, precision, recall, F1-score, and stratified 5-fold cross-validation. F1-score was emphasized because the dataset is imbalanced and it balances precision and recall.
+
+Based on the evaluation results, **Logistic Regression** achieved the strongest F1-score, making it the best-performing model in this comparison.
+
 ### How to Run
 1. Download or clone this repository.
 2. Open `email_spam.ipynb` in Google Colab or Jupyter Notebook.
